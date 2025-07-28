@@ -1,3 +1,8 @@
+# v1.0.0 (2025-07-27)
+
+## ✨ New Features
+- [`b1ec37e`](https://github.com/fredrkl/trying-out-template/commit/b1ec37e)  Init
+
 # [v1.1.0](https://github.com/fredrkl/template-base/compare/v1.0.0...v1.1.0) (2025-07-27)
 
 ## ✨ New Features
