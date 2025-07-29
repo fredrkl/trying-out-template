@@ -1,0 +1,24 @@
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: argo-traefik-chart
+  namespace: argocd
+spec:
+  project: default
+  source:
+    path: traefik
+    repoURL: https://github.com/traefik/traefik-helm-chart.git
+    targetRevision: v36.2.0
+    helm:
+      valueFiles:
+        - /traefik-values.yml
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: demo
+  syncPolicy:
+    syncOptions:
+      - CreateNamespace=true
+    automated:
+      prune: true
+      selfHeal: true
