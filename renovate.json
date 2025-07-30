@@ -3,9 +3,7 @@
   "extends": [
     "config:recommended"
   ],
-  {
-    "argocd": {
-      "managerFilePatterns": ["/argocd/.+\\.yaml$/"]
-    }
+  "argocd": {
+    "managerFilePatterns": ["/argocd/.+\\.yaml$/"]
   }
 }
