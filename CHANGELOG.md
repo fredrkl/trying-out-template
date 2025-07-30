@@ -1,3 +1,8 @@
+# [v1.2.0](https://github.com/fredrkl/trying-out-template/compare/v1.1.0...v1.2.0) (2025-07-30)
+
+## ✨ New Features
+- [`287e878`](https://github.com/fredrkl/trying-out-template/commit/287e878)  Extending Renovate with argocd
+
 # [v1.1.0](https://github.com/fredrkl/trying-out-template/compare/v1.0.0...v1.1.0) (2025-07-29)
 
 ## ✨ New Features
