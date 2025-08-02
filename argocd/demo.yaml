@@ -9,7 +9,7 @@ spec:
   source:
     path: traefik
     repoURL: https://github.com/traefik/traefik-helm-chart.git
-    targetRevision: v36.2.0
+    targetRevision: v36.3.0
     helm:
       valueFiles:
         - /traefik-values.yml
